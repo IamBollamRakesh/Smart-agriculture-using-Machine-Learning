@@ -56,9 +56,9 @@ def imageProcessing():
     X = np.load("model/X.txt.npy")
     Y = np.load("model/Y.txt.npy")
     img = X[20].reshape(64,64,3)
-    Y = to_categorical👍
+    Y = to_categorical
     X = np.asarray(X)
-    Y = np.asarray👍
+    Y = np.asarray
     X = X.astype('float32')
     X = X/255
     indices = np.arange(X.shape[0])
